@@ -1,5 +1,5 @@
 NAME = exe_animal
-SRC = main.cpp Animal.cpp 
+SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp
 
 OBJS	= ${SRC:.cpp=.o}
 
